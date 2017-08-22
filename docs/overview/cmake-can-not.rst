@@ -12,10 +12,10 @@ What can't be done with CMake
 
 .. Can't find good reference. Let me know if can find a better link (Ruslo)
 
-:ref:`CMake <CMake>` has it's strengths and weaknesses. Most of the drawbacks
-mentioned here can be workarounded by using approaches that may differs from
+:ref:`CMake <CMake>` has its strengths and weaknesses. Most of the drawbacks
+mentioned here can be worked around by using approaches that may differ from
 your normal workflow but reach the end goal. Try to look at them from another
-angle, think of the picture in a whole and remember that advantages definitely
+angle, think of the picture as a whole and remember that advantages definitely
 outweigh the disadvantages.
 
 Language/syntax
@@ -26,8 +26,8 @@ language is not something you can compare with what you have likely used
 before. There are no classes, no maps, no virtual functions or lambdas. Even
 parsing functions input arguments and returning results is something quite
 tricky for the beginners.  :ref:`CMake <CMake>` is definitely not a language
-you want to try to experiment with implementation of red-black tree or
-processing JSON response from server.  **But it does** handle regular
+you want to try to experiment with to implement red-black trees or to
+process JSON responses from a server.  **But it does** handle regular
 development very efficiently and you probably will find it more attractive than
 XML files, autotools configs or `JSON-like syntax`_.
 
@@ -36,7 +36,7 @@ way: if you want to do some nasty non-standard thing then probably you should
 stop.  If you think it is something important and useful, then it might be
 quite useful for other :ref:`CMake <CMake>` users too. In this case you need to
 think about implementing new feature **in CMake itself**.  :ref:`CMake <CMake>`
-is open-source project written in C++, I hope this language has enough power
+is an open-source project written in C++, I hope this language has enough power
 for you :) Also you can discuss this problem in `CMake mailing-list
 <https://cmake.org/mailman/listinfo/cmake-developers>`_ to see how you can help
 with improving current state.
